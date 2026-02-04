@@ -2,27 +2,100 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Política de Privacidad - Deivy Romero</title>
     <style>
-        body { font-family: sans-serif; padding: 40px; line-height: 1.6; color: #333; max-width: 800px; margin: auto; }
-        h1 { color: #2d3748; }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-width: 650px;
+            width: 100%;
+            padding: 40px;
+        }
+
+        h1 {
+            font-size: 24px;
+            color: #2d3748;
+            margin-bottom: 20px;
+            text-align: center;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            font-size: 16px;
+            color: #667eea;
+            margin: 20px 0 10px;
+            font-weight: 600;
+        }
+
+        p {
+            font-size: 14px;
+            color: #4a5568;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 30px;
+            text-decoration: none;
+            color: #667eea;
+            font-weight: 600;
+            font-size: 14px;
+            transition: color 0.3s;
+        }
+
+        .back-link:hover {
+            color: #764ba2;
+        }
+
+        @media (max-width: 480px) {
+            .card {
+                padding: 30px 20px;
+            }
+        }
     </style>
 </head>
 <body>
-    <h1>Política de Privacidad</h1>
-    <p><strong>Última actualización:</strong> 2024</p>
-    <p>Esta política describe cómo manejamos la información en este sitio web de demostración para servicios de WhatsApp Business API.</p>
-    
-    <h3>1. Recolección de Datos</h3>
-    <p>Este sitio es una tarjeta de presentación personal y no recolecta datos personales de los visitantes automáticamente.</p>
-    
-    <h3>2. Uso de la API de WhatsApp</h3>
-    <p>Cualquier interacción a través de los bots de prueba de WhatsApp se utiliza exclusivamente con fines demostrativos. No compartimos información con terceros.</p>
-    
-    <h3>3. Contacto</h3>
-    <p>Si tiene dudas, puede contactar a: dleandrorg@gmail.com</p>
-    
-    <br>
-    <a href="index.html">Volver al inicio</a>
+    <div class="card">
+        <h1>Política de Privacidad</h1>
+        
+        <p><strong>Última actualización:</strong> Febrero 2024</p>
+        
+        <p>Esta política de privacidad tiene como fin cumplir con los requisitos de transparencia para el uso de herramientas de prueba de la API de WhatsApp Business.</p>
+
+        <h3>1. Recolección de Información</h3>
+        <p>Este sitio web es de carácter informativo y profesional. No recolectamos ni almacenamos datos personales de los visitantes de forma automática.</p>
+
+        <h3>2. Uso de Datos en WhatsApp</h3>
+        <p>Las interacciones realizadas a través de los números de prueba asignados a esta cuenta tienen fines exclusivamente de demostración técnica y desarrollo de bots. La información compartida en dichos chats no será almacenada ni utilizada para fines comerciales.</p>
+
+        <h3>3. Enlaces a Terceros</h3>
+        <p>Este sitio incluye enlaces a LinkedIn y correo electrónico externo para facilitar el contacto profesional, los cuales se rigen por sus propias políticas de privacidad.</p>
+
+        <h3>4. Contacto</h3>
+        <p>Para cualquier duda sobre estas pruebas técnicas, puede contactar a: <strong>dleandrorg@gmail.com</strong></p>
+
+        <a href="index.html" class="back-link">← Volver al Perfil</a>
+    </div>
 </body>
 </html>
